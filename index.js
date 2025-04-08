@@ -25,13 +25,13 @@ function generatePass() {
     secondPassEl.innerText = secondPass.join("")
 }
 
-function copyToClipboard(text) {
-    navigator.clipboard.writeText(text).then(() => {
-        alert("Hasło skopiowane do schowka!");
-    }).catch(err => {
-        console.error('Wystąpił błąd podczas kopiowania do schowka', err);
-    });
-}
+// function copyToClipboard(text) {
+//     navigator.clipboard.writeText(text).then(() => {
+//         alert("Hasło skopiowane do schowka!");
+//     }).catch(err => {
+//         console.error('Wystąpił błąd podczas kopiowania do schowka', err);
+//     });
+// }
 
 
 
